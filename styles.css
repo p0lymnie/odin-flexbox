@@ -1,0 +1,193 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo {
+    font-weight: bold;
+    size: 24px;
+    color: #f9faf8;
+  }
+
+ul {
+    size: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    list-style: none;
+  }
+
+a {
+list-style-type: none;
+text-decoration: none;
+color: #e5e7eb
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    gap: 30px;
+    padding: 60px;
+    height: 200px;
+}
+
+.left-block-one
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.left-block-one .text1 {
+color: #f9faf8;
+font-size: 48px;
+font-weight: 900;
+}
+
+.left-block-one .text2 {
+color: #e5e7eb
+size: 18px;
+}
+
+.left-block-one > button {
+background-color: #3882f6;
+color: white;
+font-family: bold;
+width: fit-content;
+}
+
+.right-block-one {
+display: flex;
+justify-content: center;
+align-items: center;
+background: gray;
+color: white;
+flex: 1;
+padding: 35px;
+}
+
+.two {
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 200px;
+padding: 60px;
+padding-left: 90px;
+padding-right: 90px;
+}
+
+.two > .titleblocktwo {
+font-size: 26px;
+font-weight: bolder;
+color: #1f2937;
+padding-bottom: 15px;
+}
+
+
+.itemsblocktwo {
+display: flex;
+}
+
+.item-block2 {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.carre-block2 {
+border-color: #3882f6;
+border-style: solid;
+width: 110px;
+height: 110px;
+border-radius: 20px;
+}
+
+.text-block2 {
+padding-left: 90px;
+padding-right: 90px;
+font-size: 12px;
+}
+
+.three {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 200px;
+padding: 60px;
+background-color: #e5e7eb;
+padding-left: 90px;
+padding-right: 90px;
+}
+
+.three > .block3paragraphe {
+font-size: 36px;
+font-style: italic;
+font-weight: lighter;
+}
+
+.three > .signatureblock3 {
+align-self: flex-end;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+    padding: 60px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.divinside4 {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 20px 250px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    gap: 15px;
+}
+
+.blockleft4 > .title4 {
+font-weight: bold;
+}
+
+.right-button4 {
+    padding: 10px 17px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 12%;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 30px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
